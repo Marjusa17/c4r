@@ -319,8 +319,14 @@ width: 100%;
     justify-content: space-between;
     width: 75%;
     }
+    
     #wizard .nomas-maksa{
       display: inline-block;
       width: 25%;
+      }
+      
+      .form-check-input{
+border-radius: 0px!important;
+margin-right: 10px!important;
       }
     

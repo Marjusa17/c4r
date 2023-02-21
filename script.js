@@ -14,7 +14,8 @@ $("#wizard").steps({
 
     labels: {
 
-        current: ""
+        current: "",
+        next: "Turpināt <i class='fa-solid fa-angle-right'></i>",
 
     }
 

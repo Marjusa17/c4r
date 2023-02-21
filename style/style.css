@@ -287,3 +287,40 @@ color: #2C2C2C;
 #wizard .actions  a i{
   padding-left:30px;
 }
+/*
+#wizard .aprikojuma-nosaukums{
+  display: inline-block;
+  width: 75%;
+
+  
+
+}
+#wizard .aprikojuma-cena{
+  display: inline-block;
+  width: 25%;
+  
+  text-align: right;
+
+}
+*/
+#wizard .form-check label{
+display:flex;
+justify-content: space-between;
+width: 100%;
+}
+#wizard .form-check{
+  display:block;
+  width: 100%;
+  display:flex;
+  }
+
+  #wizard .rezervacijas_raksts{
+    display: inline-block;
+    justify-content: space-between;
+    width: 75%;
+    }
+    #wizard .nomas-maksa{
+      display: inline-block;
+      width: 25%;
+      }
+    

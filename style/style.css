@@ -139,6 +139,54 @@ border: 0px;
 
 
 
+#wizard .steps li.current a{
+  background-color: #55A9E5;
+  color:white;
+}
 
+#wizard .steps li a{
+  border-radius: 100%;
+  width: 40px;
+  height:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid #55A9E5;
+  color: #55A9E5;
+  font-size:13px;
+}
 
+#wizard .steps li {
+
+  position: relative;
+}
+
+#wizard .steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  width: 100%; 
+}
+
+#wizard .steps ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:30%;
+}
+
+#wizard .steps li:not(:last-child):after{
+  position: absolute;
+  content: '';
+  right: -120%;
+  top: 0%;
+  width: 90%;
+  height: 50%;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+#wizard .booking-title {
+  text-align: center;
+}
   

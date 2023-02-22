@@ -314,19 +314,50 @@ width: 100%;
   display:flex;
   }
 
-  #wizard .rezervacijas_raksts{
-    display: inline-block;
-    justify-content: space-between;
-    width: 75%;
+  #wizard .rezervacija{
+    font-size: 17px;
+    color: #777777;
+    font-weight: 600;
     }
     
     #wizard .nomas-maksa{
-      display: inline-block;
-      width: 25%;
+      font-family: inter;
+      font-size: 20px!important;
+      font-weight: 600!important;
+      
       }
       
       .form-check-input{
 border-radius: 0px!important;
 margin-right: 10px!important;
+      }
+
+      #wizard .rezervacijas-poga1{
+        color:#4294CF;
+        background-color: #FFFFFF;
+        border-radius: 9px;
+        border-color: #4294CF;
+        font-size: 13px;
+        
+      }
+      #wizard .rezervacijas-poga2{
+        color: #FFFFFF;
+        background-color: #157CB6;
+        border-radius: 9px;
+        border-color:#157CB6;
+        font-size: 13px;
+       
+
+      }
+      #wizard .aprikojuma-nosaukums{
+        font-size: 14px;
+        font-weight: 600;
+        color:#2C2C2C;
+      }
+
+      #wizard .aprikojuma-cena{
+        font-size: 14px;
+        font-weight: 600;
+        color: #777777;
       }
     

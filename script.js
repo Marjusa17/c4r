@@ -16,6 +16,7 @@ $("#wizard").steps({
 
         current: "",
         next: "Turpināt <i class='fa-solid fa-angle-right'></i>",
+        previous: "Atgriezties <i class='fa-solid fa-angle-right'></i>",
 
     }
 

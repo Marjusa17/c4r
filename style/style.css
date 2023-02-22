@@ -338,7 +338,7 @@ margin-right: 10px!important;
         border-radius: 9px;
         border-color: #4294CF;
         font-size: 13px;
-        
+        padding:10px 15px;
       }
       #wizard .rezervacijas-poga2{
         color: #FFFFFF;
@@ -346,6 +346,7 @@ margin-right: 10px!important;
         border-radius: 9px;
         border-color:#157CB6;
         font-size: 13px;
+        padding:10px 15px;
        
 
       }

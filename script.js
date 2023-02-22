@@ -8,6 +8,9 @@ $("#wizard").steps({
 
     enableAllSteps: true,
 
+    enableFinishButton: false,
+    enablePreviousButton: false,
+
 
 
     transitionEffectSpeed: 500,
@@ -18,7 +21,15 @@ $("#wizard").steps({
         next: "Turpināt <i class='fa-solid fa-angle-right'></i>",
         previous: "Atgriezties <i class='fa-solid fa-angle-right'></i>",
 
-    }
+    },
+    
+    onStepChanged: function (event, current, next) {
+        if (current != 2) {
+            $('.actions > ul > li:first-child').attr('style', '');
+        } else {
+            $('.actions > ul > li:first-child').attr('style', 'display:none');
+        }
+    },
 
 });
 
